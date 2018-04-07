@@ -68,6 +68,7 @@ h3.title {
 
 .descr {
     color: #dfba88;
+    text-align:justify;
 }
 
 .container__descr {
