@@ -1,8 +1,8 @@
 body {
-    background: darkolivegreen;
     font-family: 'KacstDecorative', sans-serif;
     font-size:15px;
-                               }
+    background: #644937de;
+}
 
 .hero {
     background-image: url("https://images.unsplash.com/photo-1481207801830-97f0f9a1337e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be08aede38d12b6e061a1c1a32cc173f&auto=format&fit=crop&w=1050&q=80");
@@ -46,12 +46,30 @@ hr {
 }
 
 .col__text {
-    background: greenyellow;
+    background: #6c230d82;
+    text-align:center;
 }
 
 .col__img {
-    background: chartreuse;
+    background: #925d33;
+
 }
-.interest {
-    color: blue;
+.know {
+    color: #d9edf7;
+    font-size: 3rem;
+}
+
+h3.title {
+    color: burlywood;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.descr {
+    color: #dfba88;
+}
+
+.container__descr {
+
 }
