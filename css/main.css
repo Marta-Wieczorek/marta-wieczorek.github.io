@@ -64,6 +64,7 @@ h3.title {
     text-shadow: 1px 1px 3px #000;
     text-align: center;
     font-size: 3.5rem;
+    margin-top: 60px;
 }
 
 .descr {
@@ -74,3 +75,24 @@ h3.title {
 .container__descr {
 
 }
+.about__ul {
+    list-style: none;
+    margin:0;
+}
+.ital {
+    font-style: italic;
+}
+
+h4.title {
+    margin-right: 0.2;
+    color: #daeef7;
+}
+.about__li {
+    margin:0;
+}
+
+footer{
+    padding: 5px 20px;
+    color: #daeef7;
+    background: #6d5746;
+    text-align: right;
