@@ -1,8 +1,10 @@
 body {
     background: darkolivegreen;
-}
+    font-family: 'KacstDecorative', sans-serif;
+    font-size:15px;
+                               }
 
-.hello {
+.hero {
     background-image: url("https://images.unsplash.com/photo-1481207801830-97f0f9a1337e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be08aede38d12b6e061a1c1a32cc173f&auto=format&fit=crop&w=1050&q=80");
     height:100vh;
     background-size:cover;
@@ -10,4 +12,30 @@ body {
 .navbar {
     margin-bottom: 0;
     border:0;
+}
+h1.title {
+    font-size:5rem;
+    letter-spacing: 4px;
+    font-weight: 900;
+    color: cornsilk;
+    text-shadow: 2px 2px 11px #000;
+
+}
+.hello{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 100px 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2.title {
+    color: antiquewhite;
+    text-shadow: 1px 1px 6px #000;
+}
+
+hr {
+    color: darkgoldenrod;
+    width: 50vw;
+    size: 2px;
 }
