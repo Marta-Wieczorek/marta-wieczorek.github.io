@@ -52,7 +52,6 @@ hr {
 .col__img {
     background: chartreuse;
 }
-.interest img {
-    width: 100vw;
-    height: auto; /*todo*/
+.interest {
+    color: blue;
 }
