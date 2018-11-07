@@ -95,4 +95,10 @@ footer{
     padding: 5px 20px;
     color: #daeef7;
     background: #6d5746;
-    text-align: right;
+    text-align: right;}
+
+.ramki{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
