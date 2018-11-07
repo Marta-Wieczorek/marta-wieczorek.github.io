@@ -101,4 +101,119 @@ footer{
     display: flex;
     justify-content: space-around;
     margin-bottom: 2%;
+    color: #dfba88;
+}
+.ramka{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-items: center;
+    width:200px;
+}
+span.name{
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin:0;
+}
+
+.gif{
+    width: 150px;
+    height: auto;
+}
+/* stylizacja pol profilu */
+.profile-uczucie{
+    text-align: center;
+    background-color: #333a;
+    font-size: 10px;
+    color: #888;
+    margin: 5px 0;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #888;
+    width:150px;
+}
+.profile-praca,
+.profile-adres{
+    text-align: center;
+    background-color: #333a;
+    font-size: 10px;
+    color: #888;
+    margin: 5px 0;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #888;
+    width:150px;
+}
+.profile-wiek,
+.profile-wzrost{
+    text-align: center;
+    background-color: #333a;
+    font-size: 10px;
+    color: #888;
+    margin: 5px 0;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #888;
+    height: 24px;
+}
+/* Ustawienia kontenera */
+.pola-profilowe-czyste  {
+    /* Ustawienie wymiarów kontenera */
+    width: 200px;
+    height: 320px;
+    /* Nasuniecie na awatar */
+    margin-top: -341px;
+    margin-left: auto;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 30;
+    /* Wysrodkowanie kontenera w poziomie */
+    margin-right: auto;
+}
+/* ustawienie marginesow dla pol profilu na awatarze */
+.profile-adres,
+.profile-praca,
+.profile-uczucie,
+.profile-wiek,
+.profile-wzrost{
+    margin: 5px 8px;
+}
+.profile-wiek,
+.profile-wzrost{
+    margin-top: 5px;
+    width: 30%;
+}
+
+.pole-profilu-ramka-1 {
+    position: absolute;
+    top: -200px;
+    width: 200px;
+    height: 160px;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    background-color: rgba(0,0,0, 0.55);
+    padding:40px 20px 0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.pole-profilu-ramka-2 {
+    position: absolute;
+    bottom: -200px;
+    width: 200px;
+    height: 160px;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    background-color: rgba(0,0,0, 0.55);
+    padding: 0 20px 20px;
+}
+.pola-profilowe-czyste:hover .pole-profilu-ramka-1 {
+    top: 0;
+}
+.pola-profilowe-czyste:hover .pole-profilu-ramka-2 {
+    bottom: 0;
 }
