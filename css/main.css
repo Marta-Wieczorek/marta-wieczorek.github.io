@@ -241,3 +241,19 @@ font-size: 18px;
 .gif .r3{
     margin:10px;
 }
+.pole-profilu-ramka-4 {
+    position: absolute;
+    bottom: -320px;
+    width: 200px;
+    height: 320px;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    background-color: rgba(0,0,0, 0.55);
+    padding: 20px;
+}
+.pola-profilowe-czyste:hover .pole-profilu-ramka-4 {
+    bottom: 0;
+}
+.r4{
+    width:150px;
+}
