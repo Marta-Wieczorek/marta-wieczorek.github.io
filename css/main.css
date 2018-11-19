@@ -258,7 +258,7 @@ font-size: 18px;
     width:150px;
 }
 
-@media all and (max-width:800px){
+@media all and (max-width:990px){
     .ramki {
         flex-wrap:wrap;
     }
